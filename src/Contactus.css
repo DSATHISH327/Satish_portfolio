@@ -1,0 +1,36 @@
+.contact-container {
+    background-color: #352208;
+    padding: 30px 0;
+    border-radius: 20px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid white;
+  }
+  
+  .contact-container h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+  
+  .contact-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .large-icon {
+    font-size: 30px;
+    color: #ffffff;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .large-icon:hover {
+    transform: scale(1.2);
+    color: #1da1f2; /* Light blue on hover */
+  }
+  

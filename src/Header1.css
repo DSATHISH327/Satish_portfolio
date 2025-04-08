@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Great+Vibes&display=swap');
+.header {
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+    border: 2px solid #ccc;
+
+    display: flex;
+    flex-direction: row;
+    background-color: #352208;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Image-section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .image {
+    height: 280px;
+    width: 280px;
+    border-radius: 50%;
+    border: 3px solid #4a90e2;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+  }
+  .image:hover {
+    transform: scale(1.05);
+  }
+  
+  h1 {
+    font-family: 'Playfair Display', serif;
+    word-spacing: 3px;
+    margin-top: 20px;
+    font-size: 24px;
+  }
+  
+  .Description-section {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10px;
+    justify-content: center;
+    padding: 0 20px;
+  }
+  
+  .about-heading {
+    font-size: 28px;
+    color: #faf6f6;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  .arrow-icon {
+    font-size: 24px;
+    color: #0077cc;
+    transition: transform 0.3s;
+  }
+  .arrow-icon.left:hover {
+    transform: translateX(-25px);
+  }
+  .arrow-icon.right:hover {
+    transform: translateX(25px);
+  }
+  
+  .about-text {
+    font-size: 18px;
+    color: #f2eaea;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+  }
+  

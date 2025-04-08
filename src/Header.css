@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Great+Vibes&display=swap');
+.Navbar{
+    display: flex;
+    flex-direction: row;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    margin: 4px 0px 5px 800px;
+}
+li{
+    list-style-type: none;
+    padding: 20px;
+    font-size: 20px;
+    color: aliceblue;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover{
+    text-decoration: none;
+    color: chartreuse;
+}
+.Headline{
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-size: 40px;
+    color: aliceblue;
+    font-style: normal;
+    margin-left: 30px;
+}
