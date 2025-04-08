@@ -6,7 +6,7 @@
 ul{
     display: flex;
     flex-direction: row;
-    margin: 4px 0px 5px 800px;
+    margin: 4px 0px 5px 650px;
 }
 li{
     list-style-type: none;
@@ -25,7 +25,7 @@ a:hover{
 .Headline{
     font-family: "Great Vibes", cursive;
     font-weight: 400;
-    font-size: 40px;
+    font-size: 30px;
     color: aliceblue;
     font-style: normal;
     margin-left: 30px;
