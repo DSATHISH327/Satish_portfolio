@@ -4,7 +4,6 @@
     width: 100%;
     border-radius: 20px;
     border: 2px solid #ccc;
-
     display: flex;
     flex-direction: row;
     background-color: #352208;
@@ -51,7 +50,7 @@
   }
   
   .about-heading {
-    font-size: 28px;
+    font-size: 38px;
     color: #faf6f6;
     display: flex;
     align-items: center;
@@ -61,7 +60,7 @@
   }
   
   .arrow-icon {
-    font-size: 24px;
+    font-size: 10px;
     color: #0077cc;
     transition: transform 0.3s;
   }
@@ -75,6 +74,7 @@
   .about-text {
     font-size: 18px;
     color: #f2eaea;
+    text-align: center;
     line-height: 1.6;
     font-family: 'Arial', sans-serif;
   }
