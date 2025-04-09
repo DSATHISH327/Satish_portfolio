@@ -62,14 +62,20 @@
   .arrow-icon {
     font-size: 10px;
     color: #0077cc;
+    background: transparent !important;
+    width: auto;
+    height: auto;
     transition: transform 0.3s;
   }
+  
   .arrow-icon.left:hover {
     transform: translateX(-25px);
   }
+  
   .arrow-icon.right:hover {
     transform: translateX(25px);
   }
+  
   
   .about-text {
     font-size: 18px;
