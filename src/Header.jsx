@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <nav className='Navbar' id='Home'>
         <h1 className='Headline'>Desaboina Satish</h1>
-        <ul>
+        <ul className='navbar-unorder-list'>
             <li><a href='#Home' >{List_items[0]}</a></li>
             <li><a href="#Projects">{List_items[1]}</a></li>
             <li><a href="#Contactme">{List_items[2]}</a></li>

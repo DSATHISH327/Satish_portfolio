@@ -1,7 +1,8 @@
 body {
     font-family: Arial, sans-serif;
-    background-color:#3e2505;
-    
+    background-color: #3e2505;
+    margin: 20px 0px 20px 0px;
+    text-align: center;
 }
 .timeline {
     position: relative;
@@ -24,35 +25,35 @@ body {
     border-radius: 10px;
     padding: 15px;
     width: 45%;
-    box-shadow: 0px 4px 6px rgba(223, 217, 217, 0.1);
+    box-shadow: 0px 4px 6px rgba(209, 29, 29, 0.1);
     margin-bottom: 30px;
     transform: scale(0.9);
 }
 .timeline-box:hover {
     position: relative;
-    background: rgb(8, 237, 35);
+    background: white;
     border-radius: 10px;
     padding: 15px;
     width: 45%;
     transform: scale(1.0);
-    box-shadow: 0px 4px 6px rgba(194, 98, 98, 0.7);
+    box-shadow: 0px 4px 6px rgba(202, 45, 45, 0.7);
     margin-bottom: 30px;
 }
 .left {
     left: -5%;
     text-align: center;
-    height: 170px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 20px 5px rgba(234, 28, 28, 0.8);
 }
 .right {
     left: 55%;
     text-align: center;
-    height: 170px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.8);
+    box-shadow: 0px 0px 20px 5px rgba(203, 19, 19, 0.8);
 }
 .timeline-box h3 {
     color: #007BFF;
@@ -61,7 +62,6 @@ body {
 .timeline-box p {
     margin: 5px 0;
 }
-h2{
+.Heading_education{
     color: aliceblue;
-    text-align: center;
 }

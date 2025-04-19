@@ -10,14 +10,14 @@ const Header1 = () => {
       <header className='header'>
         <div className='Image-section'>
           <img src={IMAGE} alt="Profile Image" className='image' />
-          <h1 className='Headline'>Desaboina Satish....</h1>
+          <h1 className='Person_Name'>Desaboina Satish....</h1>
         </div>
         <div className='Description-section'>
-          <h2 className="about-heading">
-          <FontAwesomeIcon icon={faArrowLeftLong} className="arrow-icon left" />
+          <h2 className="about-heading"> 
+           <FontAwesomeIcon icon={faArrowLeftLong} className="arrow-icon left" />
           <span> About me! </span>
           <FontAwesomeIcon icon={faArrowRightLong} className="arrow-icon right" />
-          </h2>
+          </h2> 
           <p className='about-text'>
             I'm a passionate web developer with experience in React, HTML, CSS, and JavaScript.
             I love building beautiful user interfaces and smooth user experiences.

@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Great+Vibes&display=swap');
 .header {
-    height: 500px;
-    width: 100%;
+    height: auto;
+    width: 99.80%;
     border-radius: 20px;
     border: 2px solid #ccc;
     display: flex;
@@ -11,7 +11,7 @@
   }
   
   .Image-section {
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     width: 40%;
@@ -30,22 +30,25 @@
   }
   .image:hover {
     transform: scale(1.05);
+    box-shadow: 0px 4px 6px rgba(123, 251, 4, 0.961);
   }
   
-  h1 {
+  .Person_Name{
     font-family: 'Playfair Display', serif;
     word-spacing: 3px;
     margin-top: 20px;
     font-size: 24px;
+    color: white;
   }
   
   .Description-section {
-    height: 100%;
+    height: auto;
     display: flex;
     flex-direction: column;
     width: 60%;
     margin: 10px;
     justify-content: center;
+    text-align: center;
     padding: 0 20px;
   }
   
@@ -57,30 +60,59 @@
     gap: 10px;
     margin-bottom: 20px;
     font-family: 'Playfair Display', serif;
+    margin-left: 200px;
   }
   
   .arrow-icon {
     font-size: 10px;
     color: #0077cc;
     background: transparent !important;
-    width: auto;
-    height: auto;
+    width: 40px;
+    height: 40px;
     transition: transform 0.3s;
   }
   
   .arrow-icon.left:hover {
-    transform: translateX(-25px);
+    transform: translateX(-15px);
   }
   
   .arrow-icon.right:hover {
-    transform: translateX(25px);
+    transform: translateX(15px);
   }
   
   
   .about-text {
     font-size: 18px;
     color: #f2eaea;
-    text-align: center;
     line-height: 1.6;
-    font-family: 'Arial', sans-serif;
+    font-family:'Courier New', Courier, monospace;
   }
+@media screen and (max-width:768px) {
+  .header{
+    height:auto;
+    display: flex;
+    flex-direction: row;
+  }
+  .image{
+    height: 120px;
+    width:120px;
+    box-shadow: 0px 4px 6px rgba(123, 251, 4, 0.961);
+    margin: 20px 0px 10px 30px;
+  }
+  .Person_Name{
+    font-size: 10px;
+    word-spacing: 0px;
+    margin: 10px 0px 10px 30px;
+  }
+  .about-text{
+    font-size: 4px;
+  }
+  .about-heading{
+    margin-left: 10px;
+    font-size: 8px;
+  }
+  .arrow-icon{
+    height: 20px;
+    width: 20px;
+  }
+}

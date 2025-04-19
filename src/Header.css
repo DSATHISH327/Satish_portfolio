@@ -2,8 +2,9 @@
 .Navbar{
     display: flex;
     flex-direction: row;
+    
 }
-ul{
+.navbar-unorder-list{
     display: flex;
     flex-direction: row;
     margin: 4px 0px 5px 630px;
@@ -11,7 +12,7 @@ ul{
 li{
     list-style-type: none;
     padding: 13px;
-    font-size: 15px;
+    font-size: 13px;
     color: rgb(200, 221, 239);
 }
 a{
@@ -29,4 +30,14 @@ a:hover{
     color: aliceblue;
     font-style: normal;
     margin-left: 30px;
+}
+@media screen and (max-width:768px) {
+    .Headline{
+        font-size: 4px;
+    }
+    .navbar-unorder-list{
+        display: flex;
+        flex-direction: column;
+        margin: 4px 0px 5px 30px;
+    }
 }
