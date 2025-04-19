@@ -101,4 +101,8 @@
         height: auto;
         width: auto;
     }
+    .projects{
+        display: flex;
+        flex-direction: column;
+    }
 }
