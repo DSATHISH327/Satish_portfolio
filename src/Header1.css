@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Creepster&family=Great+Vibes&display=swap');
 .header {
     height: auto;
-    width: 100%;
+    width: 1260px;
     border-radius: 20px;
     border: 2px solid #ccc;
     display: flex;
