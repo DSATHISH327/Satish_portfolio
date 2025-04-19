@@ -38,6 +38,6 @@ a:hover{
     .navbar-unorder-list{
         display: flex;
         flex-direction: column;
-        margin: 4px 0px 5px 30px;
+        
     }
 }
