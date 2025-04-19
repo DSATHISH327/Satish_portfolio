@@ -2,7 +2,7 @@ import React from 'react'
 import './Educational_qualifications.css';
 const Educational_qualifications = () => {
   return (
-    <div>
+    <div className='eductaion'>
       <h2 className='Heading_education'>🎓 Education Timeline</h2>
       <div className="timeline">
         <div className="timeline-box left">
